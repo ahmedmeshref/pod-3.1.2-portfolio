@@ -1,5 +1,12 @@
 <header class="nav-bar">
     <div class="nav-content">
+        <div class="logo">
+            <a href="{{ '/' | relative_url }}">
+                <div class="nav-logo">
+                    <img src="./assets/img/logo.svg" />
+                </div>
+            </a>
+        </div>
         <div class="theme-switch-wrapper">
             <label class="theme-switch" for="checkbox">
                 <input type="checkbox" id="checkbox" />
@@ -9,17 +16,13 @@
                 </div>
             </label>
         </div>
-        <a href="{{ '/' | relative_url }}">
-            <div class="nav-logo">
-                <img src="./assets/img/logo.svg" />
-            </div>
-        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="navbar-links">
-        <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Work Experience</a></li>
-            <li><a href="#education">Education</a></li>
-        </ul>
-    </div>
+
 </header>
