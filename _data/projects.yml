@@ -1,4 +1,11 @@
 - title: Task Tracker
   event: MLH Fellowship Pre Fellowship Project
   date: Summer 2021  - Batch 3.5
-  page-name: project
+  modal-name: project
+  logo: social-link.jpg
+
+- title: Task Tracker
+  event: MLH Fellowship Pre Fellowship Project
+  date: Summer 2021  - Batch 3.7
+  modal-name: myProject
+  logo: social-link.jpg
